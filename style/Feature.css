@@ -1,0 +1,117 @@
+* {
+  margin: 12px 0;
+}
+/* section{
+      text-align: center;
+  } */
+p {
+  /* Text md/Semibold */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6941c6;
+  /* identical to box height, or 150% */
+  /* text-align: center; */
+}
+
+h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Gray/900 */
+
+  color: #101828;
+}
+
+.main-text {
+  /* Text xl/Normal */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  /* text-align: center; */
+
+  /* Gray/500 */
+
+  color: #667085;
+}
+
+.card-list .bi {
+  width: 30px;
+  height: 30px;
+  margin: 10px auto;
+}
+
+.card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  /* text-align: center; */
+
+  /* Gray/900 */
+
+  color: #101828;
+}
+
+.card-text {
+  /* Text md/Normal */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Gray/500 */
+
+  color: #667085;
+}
+
+/* .text-center > .top { */
+/* position: static; */
+/* width: 768px;
+  height: 24px; */
+/* left: 0px;
+  top: 0px; */
+
+/* Text md/Semibold */
+/* 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px; */
+/* identical to box height, or 150% */
+
+/* text-align: center; */
+
+/* Primary/700 */
+
+/* color: #6941c6; */
+
+/* Inside auto layout */
+
+/* flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0; */
+/* margin: 12px auto;
+} */

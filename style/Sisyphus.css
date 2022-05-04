@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+
+  position: static;
+  width: 100vw;
+  /* height: 552px; */
+  left: 0px;
+  top: 2165px;
+
+  /* Gray/50 */
+
+  background: #f9fafb;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.logo img {
+  position: static;
+  left: 44.21%;
+  right: 44.21%;
+  top: 0%;
+  bottom: 88.89%;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.text h2 {
+  /* Display lg/Medium */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.product-manager img {
+  height: 64px;
+  width: 64px;
+  margin: 16px 0px;
+  border-radius: 100px;
+}
+
+.product-manager .manager-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  margin: 4px 0px;
+  text-align: center;
+
+  /* Gray/900 */
+
+  color: #101828;
+}
+.product-manager .occupation {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Gray/500 */
+
+  color: #667085;
+  margin: 4px 0px;
+}
