@@ -1,6 +1,6 @@
 <template lang="">
   <section>
-    <b-container>
+    <b-container class="footer d-flex flew-row">
       <b-row cols="6">
         <b-col><p class="top-categories">Product</p></b-col>
         <b-col><p class="top-categories">Company</p></b-col>

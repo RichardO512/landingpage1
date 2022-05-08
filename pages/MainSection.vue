@@ -2,7 +2,9 @@
   <!-- <MainNav /> -->
   <div>
     <MainNav />
-    <Header />
+    <!-- <Header /> -->
+    <Slider />
+    <Button />
     <Feature />
     <SisyphusSection />
     <FeatureSection />
@@ -14,7 +16,9 @@
 </template>
 
 <script lang="ts">
-import Header from '../components/Header.vue'
+// import Header from '../components/Header.vue'
+import Slider from '../components/SliderButton.vue'
+import Button from '../components/Button.vue'
 import MainNav from '../components/MainNav.vue'
 import Feature from '../components/Feature.vue'
 import SisyphusSection from '../components/SisyphusSection.vue'
@@ -27,7 +31,9 @@ import Footer from '../components/Footer.vue'
 export default {
   name: 'IndexPage',
   components: {
-    Header,
+    // Header,
+    Slider,
+    Button,
     MainNav,
     Feature,
     SisyphusSection,

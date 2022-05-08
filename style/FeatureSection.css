@@ -141,3 +141,16 @@ h2 {
 a:link {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 390px) {
+  .img img {
+    height: 360px;
+    width: 375px;
+  }
+
+  .card-list .bi {
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+  }
+}

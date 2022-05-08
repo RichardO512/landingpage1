@@ -1,19 +1,13 @@
-* {
-  text-align: center;
-  margin: auto;
-  /* make extra padding 0 */
-  padding: 0;
-}
+/* * { */
+/* display: block; */
+/* text-align: center; */
+/* margin: 0 auto; */
+/* make extra padding 0 */
+/* padding: 0;
+} */
 
 .font-display {
   font-family: 'Inter', 'sans-serif';
-}
-
-header {
-  text-align: center;
-
-  /* same value  from the top code*/
-  /* margin: auto; */
 }
 
 /* text  */
@@ -21,72 +15,17 @@ header {
 h1 {
   font-size: 60px;
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 72px;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: -0.02em;
   color: #101828;
 }
 p {
-  text-align: center;
+  /* text-align: center; */
   line-height: 24px;
   letter-spacing: 0.05em;
-}
-
-/* toggle switch */
-/* all toggle switch code are copy paste
-  but i modify them
-  */
-.switch {
-  display: inline-block;
-  width: 600px;
-  height: 34px;
-  position: relative;
-  /* margin-top: 10px; */
-  margin: 16px 0px;
-}
-.switch p {
-  color: #6941c6;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  margin: auto;
-  background-color: #f9f5ff;
-}
-.toggle-thumb {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #f9f5ff;
-  mix-blend-mode: multiply;
-  border-radius: 16px;
-  cursor: pointer;
-}
-/* this is the code for the toggle or slider */
-.toggle-thumb:before {
-  content: '';
-  height: 32px;
-  width: 310px;
-  position: absolute;
-  left: 2px;
-  bottom: 2px;
-  background: #ffffff;
-  border-radius: 16px;
-  transition: 0.4s all ease;
-}
-
-.checkbox {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-.checkbox:checked + .toggle-thumb:before {
-  transform: translateX(280px);
+  /* margin: 24px auto; */
 }
 
 /* button */
@@ -96,12 +35,13 @@ button {
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  position: static;
+  /* position: static; */
   width: 85px;
   height: 38px;
-  left: 28px;
-  top: 16px;
-  margin: 2rem 0 2rem 0;
+  /* left: 28px;
+  top: 16px; */
+  margin: 2rem auto;
+  text-align: center;
 }
 
 .btn-1 {
@@ -130,7 +70,7 @@ button {
   font-weight: 500;
   font-size: 18px;
   line-height: 38px;
-  position: static;
+  /* position: static; */
 }
 .btn-1:hover {
   /* White */
@@ -142,36 +82,5 @@ button {
   font-weight: 500;
   font-size: 18px;
   line-height: 38px;
-  position: static;
-}
-
-/* end section text content */
-.end-section p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 32px 0px;
-  text-align: center;
-}
-
-/* logo */
-.logo img {
   /* position: static; */
-  width: 146px;
-  height: 48px;
-
-  margin: 0px 32px;
-  bottom: 28.58%;
 }
-
-.img-section img {
-  height: 614px;
-  width: 984px;
-  left: 121px;
-  top: 22px;
-  border-radius: 0px;
-}
-
-/* section {
-  width: 100vw;
-} */

@@ -113,7 +113,7 @@
       <div class="mb-3 accordion">
         <div>
           <h3 v-b-toggle.my-collapse6>
-            How do I change my account email/
+            How do I change my account email
             <b-icon-plus-circle class="plus-icon"></b-icon-plus-circle>
             <div class="border-bottom border-dark mx-auto w-50"></div>
           </h3>
