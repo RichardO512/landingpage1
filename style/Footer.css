@@ -1,211 +1,35 @@
-h3 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height, or 122% */
-
-  text-align: center;
-  letter-spacing: -0.02em;
-
-  /* Gray/900 */
-
-  color: #101828;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 20px 0px;
-}
-p {
-  font-family: 'Inter';
-  font-style: normal;
+body {
+  font-family: Rubik, Arial, sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  /* identical to box height, or 150% */
-
-  text-align: center;
-
-  /* Gray/500 */
-
-  color: #667085;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 20px 0px;
-}
-.learn-more {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 20px;
-
-  position: static;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  /* White */
-
-  background: #ffffff;
-  /* Gray/300 */
-
-  border: 1px solid #d0d5dd;
-  box-sizing: border-box;
-  /* Shadow/xs */
-
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-.learn-more p {
-  position: static;
-  width: 87px;
-  height: 24px;
-  left: 20px;
-  top: 12px;
-
-  /* Text md/Medium */
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
-  /* Gray/700 */
-
-  color: #344054;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
+  font-size: 1rem;
+  overflow-x: hidden;
+  color: #607289;
 }
 
-.get-started {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 20px;
-
-  position: static;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  /* Primary/600 */
-
-  background: #7f56d9;
-  /* Primary/600 */
-
-  border: 1px solid #7f56d9;
-  box-sizing: border-box;
-  /* Shadow/xs */
-
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-.get-started p {
-  position: static;
-  width: 88px;
-  height: 24px;
-  left: 20px;
-  top: 12px;
-
-  /* Text md/Medium */
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
-  /* White */
-
-  color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
-}
-.btn {
-  margin: 16px 10px;
-}
-.top-categories {
-  font-family: 'Inter';
-  font-style: normal;
+h5 {
+  font-size: 1rem;
+  line-height: 1.375;
+  font-family: Rubik, Arial, sans-serif;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  /* identical to box height, or 143% */
-
-  /* Gray/400 */
-
-  color: #98a2b3;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 16px 0px;
+  color: #030929;
 }
 
-.sub-link {
-  font-family: 'Inter';
-  font-style: normal;
+a {
+  color: #818494;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
+  text-decoration: none;
+  background-color: transparent;
+}
 
-  /* Gray/500 */
-
+a:hover {
   color: #667085;
 
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
+  text-decoration: none;
 }
 
+footer {
+  background: #ffffff;
+}
 .bottom-text {
   font-family: 'Inter';
   font-style: normal;
@@ -224,52 +48,4 @@ p {
   order: 1;
   flex-grow: 0;
   margin: 36px 0px;
-  position: static;
-  width: 293px;
-  height: 24px;
-  left: 923px;
-  top: 4px;
-}
-
-@media screen and(max-width:375px) {
-  .footer {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 343px;
-    height: 240px;
-    left: 16px;
-    top: 0px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 32px 0px;
-  }
-  /*  */
-  .footer .sub-link {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 155.5px;
-    height: 240px;
-    left: 187.5px;
-    top: 0px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 1;
-    margin: 0px 32px;
-  }
 }

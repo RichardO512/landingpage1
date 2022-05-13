@@ -7,10 +7,10 @@
 
   color: #667085;
 }
-.accordion1 {
-  /* padding: 32px auto; */
-}
-h2 {
+/* .accordion1 { */
+/* padding: 32px auto; */
+/* } */
+.accordion1 h2 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -22,7 +22,7 @@ h2 {
 
   color: #101828;
 }
-.faq {
+.accordion1 .faq {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -34,7 +34,7 @@ h2 {
   color: #667085;
 }
 
-h3 {
+.accordion1 h3 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -43,7 +43,7 @@ h3 {
 
   color: #101828;
 }
-p {
+.accordion1 p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -53,13 +53,13 @@ p {
   color: #667085;
 }
 
-.accordion h3 {
+.accordion1 > .accordion h3 {
   text-align: center;
 }
-.accordion p {
+.accordion1 > .accordion p {
   text-align: center;
 }
-.accordion .plus-icon {
+.accordion1 > .accordion .plus-icon {
   position: absolute;
   border: 2px solid #7f56d9;
   border-radius: 100%;
@@ -67,7 +67,7 @@ p {
 }
 
 /* image */
-.img {
+.accordion1 > .img {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,7 +81,7 @@ p {
   background: #f9fafb;
   border-radius: 16px;
 }
-.img .image {
+.accordion1 > .img .image {
   width: 56px;
   height: 56px;
   border-radius: 100%;
@@ -90,13 +90,13 @@ p {
   border-radius: 200px;
 }
 /* Get in touch section */
-.img .text {
+.accordion1 > .img .text {
   /* background: #f9fafb; */
   border-radius: 16px;
 
   padding: 12px;
 }
-.img .text > h3 {
+.img h3 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -105,7 +105,7 @@ p {
   text-align: center;
   color: #101828;
 }
-.img .text > p {
+.accordion1 > .img p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -139,52 +139,114 @@ section {
 
 @media screen and (max-width: 375px) {
   .accordion1 {
-    height: 643px;
-    width: 343px;
+    width: 375px;
+    height: 1313px;
     margin: 0 auto;
     border-radius: 0px;
   }
+  /* icon */
+  /* edit here later */
+  .accordion1 > .accordion .plus-icon {
+    position: absolute;
+    border: 2px solid #7f56d9;
+    border-radius: 100%;
+    left: 240px;
+    /*  */
+  }
   /*  */
+  .accordion1 h2 {
+    width: 343px;
+    height: 76px;
 
+    /* Display sm/Semibold */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    /* or 127% */
+
+    text-align: center;
+
+    /* Gray/900 */
+
+    color: #101828;
+  }
+  .accordion1 > .faq {
+    width: 343px;
+    height: 56px;
+
+    /* Text lg/Normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    text-align: center;
+
+    /* Gray/500 */
+
+    color: #667085;
+  }
+
+  .accordion1 h3 {
+    width: 311px;
+    height: 28px;
+
+    /* Text lg/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 156% */
+
+    /* Gray/900 */
+
+    color: #101828;
+  }
+  .accordion1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #667085;
+  }
+
+  .accordion h3 {
+    text-align: center;
+  }
+  .accordion p {
+    text-align: center;
+  }
   /*  */
-
-  .img {
-    /* Content */
-
-    /* Auto layout */
-
+  .accordion1 .img {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* padding: 32px 20px; */
-    margin: 0 auto;
-    position: static;
-    width: 430px;
-    height: 200px;
-    /* left: 16px;
-    top: 0px; */
+    padding: 32px 20px;
+    /* gap: 24px; */
+
+    width: 343px;
+    height: 298px;
 
     /* Gray/50 */
 
     background: #f9fafb;
     border-radius: 16px;
-
-    /* Inside auto layout */
   }
-  .img .image {
+  .accordion1 > .img .image {
     width: 120px;
     height: 56px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0 10px; */
-    /* Inside auto layout */
-    text-align: center;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 24px auto;
+    /* gap: 18px; */
+    margin: 0 auto;
   }
 }
 /* 414 */
@@ -196,7 +258,7 @@ section {
     border-radius: 0px;
   }
   /*  */
-  .accordion .plus-icon {
+  .accordion1 > .accordion .plus-icon {
     position: absolute;
     border: 2px solid #7f56d9;
     border-radius: 100%;
@@ -205,7 +267,7 @@ section {
 
   /*  */
 
-  .img {
+  .accordion1 > .img {
     /* Content */
 
     /* Auto layout */
@@ -229,7 +291,7 @@ section {
 
     /* Inside auto layout */
   }
-  .img .image {
+  .accordion1 > .img .image {
     width: 120px;
     height: 56px;
     display: flex;
@@ -254,7 +316,7 @@ section {
     border-radius: 0px;
   }
   /*  */
-  .accordion .plus-icon {
+  .accordion1 > .accordion .plus-icon {
     position: absolute;
     border: 2px solid #7f56d9;
     border-radius: 100%;
@@ -263,7 +325,7 @@ section {
 
   /*  */
 
-  .img {
+  .accordion1 > .img {
     /* Content */
 
     /* Auto layout */
@@ -287,7 +349,7 @@ section {
 
     /* Inside auto layout */
   }
-  .img .image {
+  .accordion1 > .img .image {
     width: 220px;
     height: 100px;
     display: flex;
@@ -313,7 +375,7 @@ section {
     border-radius: 0px;
   }
   /*  */
-  .accordion .plus-icon {
+  .accordion1 > .accordion .plus-icon {
     position: absolute;
     border: 2px solid #7f56d9;
     border-radius: 100%;
@@ -322,7 +384,7 @@ section {
 
   /*  */
 
-  .img {
+  .accordion1 > .img {
     /* Content */
 
     /* Auto layout */
@@ -346,7 +408,7 @@ section {
 
     /* Inside auto layout */
   }
-  .img .image {
+  .accordion1 > .img .image {
     width: 220px;
     height: 100px;
     display: flex;
@@ -372,7 +434,7 @@ section {
     border-radius: 0px;
   }
   /*  */
-  .accordion .plus-icon {
+  .accordion1 > .accordion .plus-icon {
     position: absolute;
     border: 2px solid #7f56d9;
     border-radius: 100%;
@@ -381,7 +443,7 @@ section {
 
   /*  */
 
-  .img {
+  .accordion1 > .img {
     /* Content */
 
     /* Auto layout */
@@ -405,7 +467,7 @@ section {
     margin: 0 auto;
     /* Inside auto layout */
   }
-  .img .image {
+  .accordion1 > .img .image {
     width: 120px;
     height: 70px;
     display: flex;
@@ -419,7 +481,7 @@ section {
     flex-grow: 0;
     margin: 32px auto;
   }
-  .img .text > p {
+  .accordion1 > .img p {
     /*  */
     position: static;
     width: 303px;
@@ -439,7 +501,7 @@ section {
     text-align: center;
   }
 
-  h3 {
+  .accordion1 > h3 {
     position: static;
     width: 311px;
     height: 56px;
@@ -468,7 +530,7 @@ section {
     margin: 8px 0px;
   }
   /*  */
-  h2 {
+  .accordion1 > h2 {
     position: static;
     width: 343px;
     height: 76px;
@@ -498,7 +560,7 @@ section {
     flex-grow: 0;
     margin: 16px 0px;
   }
-  .faq {
+  .accordion1 > .faq {
     position: static;
     width: 343px;
     height: 56px;
@@ -537,7 +599,7 @@ section {
       border-radius: 0px;
     }
     /*  */
-    .accordion .plus-icon {
+    .accordion1 > .accordion .plus-icon {
       position: absolute;
       border: 2px solid #7f56d9;
       border-radius: 100%;
@@ -546,7 +608,7 @@ section {
 
     /*  */
 
-    .img {
+    .accordion1 > .img {
       /* Content */
 
       /* Auto layout */
@@ -570,7 +632,7 @@ section {
 
       /* Inside auto layout */
     }
-    .img .image {
+    .accordion1 > .img .image {
       width: 120px;
       height: 56px;
       display: flex;
